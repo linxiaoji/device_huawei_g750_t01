@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_FOLDER := device/lenovo/a808t
+DEVICE_FOLDER := device/huawei/g750_t01
 
 # Use the non-open-source parts, if they're present
--include vendor/lenovo/a808t/BoardConfigVendor.mk
+-include vendor/huawei/g750_t01/BoardConfigVendor.mk
 
 USE_CAMERA_STUB := true
 
@@ -44,7 +44,7 @@ TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
 # boot
 TARGET_NO_BOOTLOADER := true
-TARGET_BOOTLOADER_BOARD_NAME := a808t
+TARGET_BOOTLOADER_BOARD_NAME := g750_t01
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_FOLDER)/boot.mk
 
 
@@ -95,7 +95,7 @@ WIFI_DRIVER_FW_PATH_P2P := "STA+P2P"
 
 
 # telephony
-BOARD_RIL_CLASS := ../../../device/lenovo/a808t/ril/
+BOARD_RIL_CLASS := ../../../device/huawei/g750_t01/ril/
 
 
 # audio
