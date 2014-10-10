@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/lenovo/a808t/a808t-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/g750_t01/g750_t01-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/
 
