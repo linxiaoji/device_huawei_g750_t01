@@ -2,8 +2,8 @@
 
 set -e
 
-VENDOR=lenovo
-DEVICE=a808t
+VENDOR=huawei
+DEVICE=g750_t01
 
 extract_blob () {
     local SRC
